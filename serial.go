@@ -54,5 +54,5 @@ type Port io.ReadWriteCloser
 
 // Open opens a serial port.
 func Open(c *Config) (Port, error) {
-	return open(c)
+	return Open(c)
 }
